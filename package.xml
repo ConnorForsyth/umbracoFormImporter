@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+	<files>
+		<file>
+			<guid>package.manifest</guid>
+			<orgPath>/App_Plugins/UmbracoFormImporter/</orgPath>
+			<orgName>package.manifest</orgName>
+		</file>
+		<file>
+			<guid>angular-file-upload.js</guid>
+			<orgPath>/App_Plugins/UmbracoFormImporter</orgPath>
+			<orgName>angular-file-upload.js</orgName>
+		</file>
+		<file>
+			<guid>FormFileUploader.js</guid>
+			<orgPath>/App_Plugins/UmbracoFormImporter</orgPath>
+			<orgName>FormFileUploader.js</orgName>
+		</file>
+		<file>
+			<guid>app.html</guid>
+			<orgPath>/App_Plugins/UmbracoFormImporter</orgPath>
+			<orgName>app.html</orgName>
+		</file>
+		<file>
+			<guid>umbracoFormImporter.css</guid>
+			<orgPath>/App_Plugins/UmbracoFormImporter</orgPath>
+			<orgName>umbracoFormImporter.css</orgName>
+		</file>
+		<file>
+			<guid>FileUploadApiController.cs</guid>
+			<orgPath>/App_Code/UmbracoFormImporter</orgPath>
+			<orgName>FileUploadApiController.cs</orgName>
+		</file>
+		<file>
+			<guid>CustomMultipartFormDataStreamProvider.cs</guid>
+			<orgPath>/App_Code/UmbracoFormImporter</orgPath>
+			<orgName>CustomMultipartFormDataStreamProvider.cs</orgName>
+		</file>
+		<file>
+			<guid>file-upload.png</guid>
+			<orgPath>/App_Plugins/UmbracoFormImporter</orgPath>
+			<orgName>file-upload.png</orgName>
+		</file>
+	</files>
+	<info>
+		<package>
+			<name>Umbraco Form Importer</name>
+			<version>1</version>
+			<iconUrl>/App_Plugins/UmbracoFormImporter/file-upload.png</iconUrl>
+			<license url="http://opensource.org/licenses/MIT">MIT License</license>
+			<url>https://github.com/ConnorForsyth/umbracoFormImporter</url>
+			<requirements type="strict">
+				<major>7</major>
+				<minor>5</minor>
+				<patch>1</patch>
+			</requirements>
+		</package>
+		<author>
+				<name>Connor Forsyth</name>
+				<website>https://www.aberdeenshire.gov.uk</website>
+		</author>
+		<readme><![CDATA[]]></readme>
+	</info>
+	<DocumentTypes />
+	<Templates />
+	<Stylesheets />
+	<Macros />
+	<DictionaryItems />
+	<Languages />
+	<DataTypes />				
+	<Actions>
+		<Action runat="install" alias="addDashboardSection" dashboardAlias="formUploader">
+			<section>
+				<areas>
+					<area>forms</area>
+				</areas>
+				<tab caption="Import Form">
+					<control>/app_plugins/UmbracoFormImporter/app.html</control>
+				</tab>
+			</section>
+		</Action>
+	</Actions>
+</umbPackage>

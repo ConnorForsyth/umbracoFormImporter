@@ -1,0 +1,9 @@
+{
+	"javascript":[	
+		"/App_Plugins/UmbracoFormImporter/FormFileUploader.js",
+		"/App_Plugins/UmbracoFormImporter/angular-file-upload.js"
+	],
+	"css":[
+		"/App_Plugins/UmbracoFormImporter/UmbracoFormImporter.css"
+	]
+}

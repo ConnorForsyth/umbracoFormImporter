@@ -1,0 +1,16 @@
+﻿ #FormFileUploader .form-upload {
+     margin-bottom: 40px;
+ }
+
+ #FormFileUploader .input-textbox-upload {
+     width:40%;
+     margin-bottom:0 !important;
+ }
+
+ #FormFileUploader .import-feedback-placeholder {
+     height: 100px;
+ }
+ 
+ #FormFileUploader .select-import-type{
+	margin-bottom:0 !important; 
+ }
