@@ -128,7 +128,7 @@ angular.module("umbraco.resources").factory("fileApiService", function ($http, $
 		
         return $http({
             method: 'POST',
-            url: "backoffice/ConnorFileUploader/FileUploadApi/UploadFileToServer",
+            url: "backoffice/FormFileUploader/FileUploadApi/UploadFileToServer",
             // If using Angular version <1.3, use Content-Type: false.
             // Otherwise, use Content-Type: undefined
             headers: { 'Content-Type': false },
